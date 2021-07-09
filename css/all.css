@@ -88,22 +88,6 @@ body {
   font-size: 20px;
 }
 
-.work-col-3, .work-col-2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.work-col-3 li, .work-col-2 li {
-  margin-bottom: 48px;
-  margin-right: 12px;
-  margin-left: 12px;
-}
-
-.work-col-3 li img, .work-col-2 li img {
-  margin-bottom: 16px;
-}
-
 .theme-light {
   color: #fff;
   background: #000;
@@ -240,6 +224,26 @@ body {
 
 .work .content-desc {
   margin-bottom: 56px;
+}
+
+.work-list {
+  width: 1200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.work-list li {
+  margin-bottom: 48px;
+}
+
+.work-list li img {
+  margin-bottom: 16px;
 }
 
 .footer {

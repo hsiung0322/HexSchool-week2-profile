@@ -14,17 +14,6 @@ body{
     font-style: normal;
     font-size: 20px;
 }
-.work-col-3, .work-col-2{
-    display: flex;
-    li{
-        margin-bottom: 48px;
-        margin-right: 12px;
-        margin-left: 12px;
-        img{
-            margin-bottom: 16px;
-        }
-    }
-}
 .theme-light{
     color: #fff;
     background: #000;
@@ -114,6 +103,18 @@ body{
     }
     .content-desc{
         margin-bottom: 56px;
+    }
+}
+.work-list{
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    li{
+        margin-bottom: 48px;
+        img{
+            margin-bottom: 16px;
+        }
     }
 }
 .footer{
